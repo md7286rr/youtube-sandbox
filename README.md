@@ -10,7 +10,7 @@ saaaa
 <br><br>slosa
 ds
 ## 🚀 تنظیمات اولیهsر s)
-sssa
+sssaa
 ### ۱. این ریپو رو فورک ک.
 ### ۲. برو به *sa*Settings → Actions → General**
 ### ۳. در بخش **Workflow permissions** گزینه **Read and write permissions** رو انتخاب کن و **Save** رو بزن.
