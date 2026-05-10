@@ -8,7 +8,7 @@ adsw
 > برای دیدن لیست ویدیوها احتمالاً نیاز به فیلترشکن داری، ولی پیشنهاد من اینه که از پروژه [MITM-DomainFrontinga]w(https://github.com/patterniha/MITM-DomainFronting) استفاده کنی تا بدون فیلترشکن هم بتونی به یوتیوب دسترسی داشته باشی.
 saaaa
 <br><br>slosas
-ds
+dss
 ## 🚀 تنظیمات a)
 sssaa
 ### ۱. این ریپو رو فورک ک.
