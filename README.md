@@ -12,7 +12,7 @@ d
 ## 🚀 تنظیمات اولیه (یک بار s)
 s
 ### ۱. این ریپو رو فورک ک.
-### ۲. برو به **Settings → Actions → General**
+### ۲. برو به *a*Settings → Actions → General**
 ### ۳. در بخش **Workflow permissions** گزینه **Read and write permissions** رو انتخاب کن و **Save** رو بزن.
 ### ۴. ساخت Secret برای کوکی‌ها (خیلی مهم!)
 
