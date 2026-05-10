@@ -9,7 +9,7 @@ adsw
 saaaaa
 <br><br>slosas
 dss
-## 🚀 تنظیمات a)
+## 🚀 تنظیaa)
 sssaa
 ### ۱. این ریپو رو فورک ک.
 ### ۲. برو به *ssa*Settings → Actions → General**
