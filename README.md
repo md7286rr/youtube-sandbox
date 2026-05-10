@@ -11,7 +11,7 @@ saaaaa
 dss
 ## 🚀 تنظیaa)
 sssaa
-### ۱. این ریپو رو فورک ک.
+### ۱. این ریپوaک.
 ### ۲. برو به *ssa*Settings → Actions → General**
 ### ۳. در بخش **Workflow permissions** گزینه **Read and write permissions** رو انتخاب کن و **Save** رو بزن.
 ### ۴. ساخت Secret برای کوکی‌ها (خیلی مهم!)
