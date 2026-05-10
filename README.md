@@ -9,7 +9,7 @@ adsw
 saaaaa
 <br><br>slosasas
 dssa
-## 🚀 تنظیaa)
+## 🚀 تنظaaa)
 sssaa
 ### ۱. این ریپوaک.
 ### ۲. برو به *ssa*Settings → Actions → General**
