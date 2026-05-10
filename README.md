@@ -9,7 +9,7 @@
 saaaa
 <br><br>slos
 d
-## 🚀 تنظیمات اولیه (یک بار s)
+## 🚀 تنظیمات اولیهsر s)
 sss
 ### ۱. این ریپو رو فورک ک.
 ### ۲. برو به *a*Settings → Actions → General**
