@@ -46,7 +46,7 @@ jobs:
           PLAYLIST="--no-playlist"
           AUDIO_ONLY="false"
           SUBTITLES="false"
-          SPONSORBLOCK="true"
+          SPONSORBLOCK="false"
 
           if echo "$MSG" | grep -qi "quality: *1080"; then QUALITY="1080"; fi
           if echo "$MSG" | grep -qi "quality: *720";  then QUALITY="720"; fi
@@ -55,7 +55,7 @@ jobs:
           if echo "$MSG" | grep -qi "playlist: *true";      then PLAYLIST="--yes-playlist"; fi
           if echo "$MSG" | grep -qi "audio-only: *true";    then AUDIO_ONLY="true"; fi
           if echo "$MSG" | grep -qi "subtitles: *true";     then SUBTITLES="true"; fi
-          if echo "$MSG" | grep -qi "sponsorblock: *false"; then SPONSORBLOCK="false"; fi
+          if echo "$MSG" | grep -qi "sponsorblock: *true"; then SPONSORBLOCK="true"; fi
 
           mkdir -p downloads
 
@@ -71,9 +71,9 @@ jobs:
             YT_CMD="$YT_CMD -x --audio-format mp3 --audio-quality 0"
           else
             case $QUALITY in
-              1080) YT_CMD="$YT_CMD -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]'" ;;
-              720)  YT_CMD="$YT_CMD -f 'bestvideo[height<=720]+bestaudio/best[height<=720]'" ;;
-              480)  YT_CMD="$YT_CMD -f 'bestvideo[height<=480]+bestaudio/best[height<=480]'" ;;
+              1080) YT_CMD="$YT_CMD -f 'bestvideo[height=1080]+bestaudio'" ;;
+              720)  YT_CMD="$YT_CMD -f 'bestvideo[height=720]+bestaudio'" ;;
+              480)  YT_CMD="$YT_CMD -f 'bestvideo[height=480]+bestaudio'" ;;
               *)    YT_CMD="$YT_CMD -f 'bestvideo+bestaudio/best'" ;;
             esac
             YT_CMD="$YT_CMD --merge-output-format mp4"
